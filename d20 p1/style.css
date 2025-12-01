@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+main section {
+  height: 100%;
+  width: 100px;
+  background-color: crimson;
+  border: 4px solid rgb(0, 0, 0);
+  flex-grow: 1;
+}
+main section:hover {
+  flex-grow: 3.5;
+  transition: all 0.9s ease;
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background: url(VALORENT\ AGENT\ _\ RENA.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(2) {
+  background: url(VALORENT\ AGENT\ _\ FADE.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(3) {
+  background: url(VALORENT\ AGENT\ _\ SAGE.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(4) {
+  background: url(VALORENT\ AGENT\ _\ VIPER.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(5) {
+  background: url(VALORENT\ AGENT\ _\ JETT.jpg);
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
